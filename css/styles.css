@@ -1,0 +1,240 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #2196f3;
+  --third-color: #757575;
+  --fourth-color: #FFFFFF;
+  --main-font: font-family: 'Roboto', sans-serif;
+  --secondary-font: font-family: 'Raleway', sans-serif;
+  --background: #2F303A;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+
+footer {
+   font-family: var(--main-font);
+   }
+   
+/* ==== COMPONENTS ===== */
+
+.modal-btn-index {
+    background-color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    /* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--fourth-color);
+}
+
+.navigation-logo-header {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #000000;;
+}
+
+.navigation-logo-span {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #2196F3;
+}
+
+.navigation-logo-footer {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--fourth-color);
+}
+
+.button-porfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    border-radius: 4px;
+    color: var(--main-color);
+}
+
+.button-porfolio:hover,
+.button-porfolio:focus {
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
+}
+/* ==== END COMPONENTS ===== */
+
+
+/* ==== HEADER ===== */
+
+.navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.header-mail,
+.header-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    color: var(--third-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-phone-number:hover,
+.header-phone-number:focus {
+    color: var(--secondary-color);
+}
+.baner-header {
+    background-color: var(--background);
+}
+
+.text-baner {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--fourth-color);
+}
+
+/* ==== END HEADER ===== */
+
+/* ==== HEADER PORTFOLIO ===== */
+
+.services-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.services-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+}
+
+/* ==== END HEADER PORTFOLIO ===== */
+
+
+/* ==== MAIN ===== */
+
+.h2-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.advantages-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.advantages-description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--third-color)
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.team-occupation {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+}
+
+
+/* ==== END MAIN ===== */
+
+/* ==== FOOTER ===== */
+.footer
+.adress-maps {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--fourth-color);
+}
+
+
+.adress-mail,
+.adress-phone-number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+    background-color: var(--background);
+}
+/* ==== END FOOTER ===== */
