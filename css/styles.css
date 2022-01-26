@@ -40,6 +40,7 @@ footer {
     font-size: 26px;
     line-height: 1.192;
     /* identical to box height */
+    text-decoration: none;
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #000000;;
@@ -52,6 +53,7 @@ footer {
     font-size: 26px;
     line-height: 1.192;
     /* identical to box height */
+    text-decoration: none;
     letter-spacing: 0.03em;
     cursor: pointer;
     color: #2196F3;
@@ -64,6 +66,7 @@ footer {
     font-size: 26px;
     line-height: 1.192;
     /* identical to box height */
+    text-decoration: none;
     letter-spacing: 0.03em;
     cursor: pointer;
     color: var(--fourth-color);
@@ -76,6 +79,7 @@ footer {
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
     color: var(--main-color);
@@ -86,6 +90,14 @@ footer {
     background-color: var(--secondary-color);
     color: var(--fourth-color);
 }
+
+.navigation-list,
+.navigation-list-phone-mail,
+.navigation-list-footer,
+.list-button-porfolio {
+    list-style: none;
+}
+
 /* ==== END COMPONENTS ===== */
 
 
@@ -96,6 +108,7 @@ footer {
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--main-color);
     cursor: pointer;
 }
@@ -106,6 +119,7 @@ footer {
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
+    text-decoration: none;
     cursor: pointer;
     color: var(--third-color);
 }
@@ -187,6 +201,9 @@ footer {
     color: var(--third-color)
 }
 
+.team-section {
+    background-color: #F5F4FA;
+}
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -218,6 +235,7 @@ footer {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    text-decoration: none;
     cursor: pointer;
     color: var(--fourth-color);
 }
@@ -230,6 +248,7 @@ footer {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    text-decoration: none;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.6);
 }
