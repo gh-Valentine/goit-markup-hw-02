@@ -150,6 +150,7 @@ footer {
 
 /* ==== HEADER PORTFOLIO ===== */
 
+
 .services-header {
   font-weight: 700;
   font-size: 18px;
@@ -188,6 +189,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
+  list-style: none;
 }
 
 .advantages-description {
@@ -197,6 +199,15 @@ footer {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--third-color);
+  list-style: none;
+}
+
+.service-box-list {
+  list-style: none;
+}
+
+.team-box {
+  list-style: none;
 }
 
 .team-section {
