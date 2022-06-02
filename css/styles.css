@@ -154,7 +154,6 @@ footer {
 
 /* ==== PORTFOLIO ===== */
 
-
 .services-header {
   font-weight: 700;
   font-size: 18px;
@@ -173,8 +172,11 @@ footer {
   color: var(--third-color);
 }
 
-/* ==== END HEADER PORTFOLIO ===== */
+.servises-block {
   list-style: none;
+}
+
+/* ==== END PORTFOLIO ===== */
 
 /* ==== MAIN ===== */
 
