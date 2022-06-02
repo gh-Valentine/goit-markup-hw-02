@@ -128,7 +128,11 @@ footer {
 .header-mail:hover,
 .header-mail:focus,
 .header-phone-number:hover,
-.header-phone-number:focus {
+.header-phone-number:focus,
+.adress-mail:hover,
+.adress-mail:focus,
+.adress-phone-number:hover,
+.adress-phone-number:focus {
   color: var(--secondary-color);
 }
 .baner-header {
@@ -148,7 +152,7 @@ footer {
 
 /* ==== END HEADER ===== */
 
-/* ==== HEADER PORTFOLIO ===== */
+/* ==== PORTFOLIO ===== */
 
 
 .services-header {
@@ -170,6 +174,7 @@ footer {
 }
 
 /* ==== END HEADER PORTFOLIO ===== */
+  list-style: none;
 
 /* ==== MAIN ===== */
 
